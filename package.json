@@ -1,0 +1,18 @@
+{
+  "name": "hungerscraping",
+  "version": "1.0.0",
+  "description": "PoC of scraping possibility",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "os": "^0.1.2",
+    "proxy-chain": "^2.3.0",
+    "puppeteer": "^20.2.1"
+  },
+  "author": "Fahad Alazzah",
+  "license": "ISC"
+}
